@@ -21,20 +21,13 @@
     position: absolute;
 
 }
-.custom .x.button.pressed{
-    width:60px;
-    height:60px;
-    left: 220px;
-    top: 180px;
-    background: url(img/three.png);
-}
 
 .custom .a.button.pressed{
-    width:60px;
-    height:60px;
-    left: 505px;
-    top: 112px;
-    background: url(img/two.png);
+    width:51px;
+    height:51px;
+    left: 0px;
+    top: 0px;
+    background: url(img/one.png);
 }
 
 .custom .a{ 
@@ -43,6 +36,15 @@
     left: -60px;
     background-repeat:no-repeat;
 }
+
+.custom .x.button.pressed{
+    width:51px;
+    height:51px;
+    left: 220px;
+    top: 180px;
+    background: url(img/three.png);
+}
+
 .custom .x{ 
     background-position: -104px 0px;
     top: 409px;
