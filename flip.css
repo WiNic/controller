@@ -26,16 +26,10 @@
     height:60px;
     left: 220px;
     top: 180px;
-    background: url(img/one.png);
+    background: url(img/three.png);
 }
 
-.custom .x{ 
-    background-position: -104px 0px;
-    top: 409px;
-    left: -60px;
-    background-repeat:no-repeat;
-}
-.custom .y.button.pressed{
+.custom .a.button.pressed{
     width:60px;
     height:60px;
     left: 505px;
@@ -43,12 +37,19 @@
     background: url(img/two.png);
 }
 
-.custom .y{ 
+.custom .a{ 
     background-position: -104px 0px;
     top: 409px;
     left: -60px;
     background-repeat:no-repeat;
 }
+.custom .x{ 
+    background-position: -104px 0px;
+    top: 409px;
+    left: -60px;
+    background-repeat:no-repeat;
+}
+
 
 .custom .sticks{
     position: absolute;
