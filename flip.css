@@ -25,9 +25,24 @@
 .custom .a.button.pressed{
     width:51px;
     height:51px;
-    left: 210px;
+    left: 220px;
     top: 71px;
     background: url(img/one.png);
+}
+
+.custom .b{ 
+    background-position: -104px 0px;
+    top: 0px;
+    left: 0px;
+    background-repeat:no-repeat;
+}
+
+.custom .b.button.pressed{
+    width:51px;
+    height:51px;
+    left: 340px;
+    top: 71px;
+    background: url(img/two.png);
 }
 
 .custom .a{ 
@@ -57,8 +72,8 @@
     position: absolute;
     width: 310px;
     height: 100px;
-    top: 70px;
-    left: 230px;
+    top: 0px;
+    left: 0px;
     background-repeat:no-repeat;
 }
 .custom .stick.left{
@@ -74,8 +89,8 @@
 
 
 .custom .stick.left{
-    top: -301px;
-    left: -16px;
+    top: 61px;
+    left: 60px;
 }
 
 
