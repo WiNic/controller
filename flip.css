@@ -1,9 +1,9 @@
 /*BEGIN FLipmaus Styling*/
 
 .controller.custom{
-    background: url(img/base.png);
-    height: 142px;
-    width: 631px;
+    background: url(img/test.png);
+    width: 1111px;
+    height: 582px;
     background-position-x: 0px;
     background-repeat:no-repeat;
 }
