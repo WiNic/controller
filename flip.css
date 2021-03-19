@@ -1,11 +1,93 @@
 /*BEGIN FLipmaus Styling*/
 
 .controller.custom{
-    background: url(img/test.png);
-    width: 1111px;
-    height: 582px;
+    background: url(test_img/base.png);
+    height: 200px;
+    width: 600px;
     background-position-x: 0px;
     background-repeat:no-repeat;
 }
+.custom.disconnected { 
+    background: url(test_img/disconnected.png);
+    background-repeat:no-repeat;
+}
+.custom.disconnected div {
+    display: none;
+}
+ .custom .triggers{ 
+    width: 127px;
+    height: 100px;
+    top: 33px;
+    left:-86px;
+    position: absolute;
+    background-repeat:no-repeat;
+} 
+.custom .trigger{
+    width: 200px;
+    height: 140px;
+    background: url(test_img/LT.png);
+    background-repeat:no-repeat;
+}
+.custom .trigger.left{ 
+    float: left;
+    left:147px;
+    background-position-x: 0px;
+    position: absolute;
+}
+.custom .trigger.right{
+    background: url(test_img/RT.png);
+    float: right;
+    width: 70px;
+    height: 132px;
+    top: 0px;
+    left:467px;
+    position: absolute;
+}
+
+/* base class used to simplify the sprite mapping */
+.custom .button{
+    position: absolute;
+
+}
+.custom .x.button.pressed{
+    width:60px;
+    height:60px;
+    left: 505px;
+    top: 112px;
+    background: url(test_img/X.png);
+}
+
+.custom .x{ 
+    background-position: -104px 0px;
+    top: 409px;
+    left: -60px;
+    background-repeat:no-repeat;
+}
+
+.custom .sticks{
+    position: absolute;
+    width: 310px;
+    height: 100px;
+    top: 374px;
+    left: 240px;
+    background-repeat:no-repeat;
+}
+.custom .stick.left{
+    position: absolute;
+    background: url(test_img/stick.png);
+    height:88px;
+    width: 88px;
+    background-repeat:no-repeat;
+}
+.custom .stick.pressed.left{
+    background-position-x: -88px;
+}
+
+
+.custom .stick.left{
+    top: -301px;
+    left: -16px;
+}
+
 
 /*END FLipmaus Styling*/
