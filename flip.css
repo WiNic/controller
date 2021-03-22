@@ -68,55 +68,6 @@
 }
 
 
-/* Dpad possitioning and sizing */
-.custom .dpad{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    top: 60px;
-    left: 680px;
-}
-.custom .face{
-    background: url(img/joined_puff_sip.png);
-    position: absolute;
-}
-
-/* Button size */
-.custom .face.up, .custom .face.down{
-    width: 80px;
-    height: 80px;
-}
-.custom .face.left, .custom .face.right{
-    width: 80px;
-    height: 80px;
-}
-
-.custom .face.up{
-    left: 0px;
-    top: 0px;
-    background-position: 0px 0px;
-}
-.custom .face.down{
-    left: 0px;
-    top: 0px;
-    background-position: 80px 0;
-}
-.custom .face.left{
-    top: 0px;
-    left: 0px;
-    background-position: 160px 0;
-}
-.custom .face.right{
-    top: 0px;
-    right: 100px;
-    background-position: 320px 0;
-}
-.custom .face.pressed{
-    margin-top: 5px;
-    background-position-y: 80px;
-}
-
-
 .custom .sticks{
     position: absolute;
     width: 310px;
