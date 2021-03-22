@@ -77,8 +77,17 @@
     left: 74px;
 }
 .custom .face{
-    background: url(img/strong_puff.png);
+    background: url(test_img/dpad.png);
     position: absolute;
+}
+
+.custom .face.up, .custom .face.down{
+    width: 38px;
+    height: 52px;
+}
+.custom .face.left, .custom .face.right{
+    width: 52px;
+    height: 38px;
 }
 
 .custom .face.up{
